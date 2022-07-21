@@ -1,0 +1,319 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.top-container {
+  padding: 3% 15%;
+}
+
+.big-heading, #cta h3 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: rgb(211, 217, 222);
+}
+
+/* Download Buttons*/
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.btn-outline-light {
+  margin-left: 3%;
+}
+
+/* Title Image */
+.title-img {
+  height: 90%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+img.title-img {
+  padding-bottom: 7%;
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+#title .container-fluid {
+  padding: 3% 7% 15%;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 2.5rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+div p {
+  color: #8f8f8f;
+}
+
+/* Testimonials*/
+
+#testimonials {
+  background-color:#ef8172;
+  color: #fff;
+  font-weight: bold;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 60px 20px 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  margin-top: 8%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-header p {
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.pricing-header h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pricingTable {
+  background: #fff;
+  margin: 0 -15px;
+  box-shadow: 0 0 10px #ababab;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  color: #cad0de;
+  transform: scale(1);
+  transition: all .5s ease 0s;
+}
+
+.pricingTable:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.pricingTable .pricingTable-header {
+  padding: 30px 0;
+  background: #f5f6f9;
+  border-radius: 10px 10px 50% 50%;
+  transition: all .5s ease 0s;
+}
+
+.pricingTable:hover .pricingTable-header {
+  background: #ff9624;
+}
+
+.pricingTable .pricingTable-header i {
+  font-size: 50px;
+  color: #858c9a;
+  margin-bottom: 10px;
+  transition: all .5s ease 0s;
+}
+
+.pricingTable .price-value {
+  font-size: 35px;
+  color: #ff9624;
+  transition: all .5s ease 0s;
+}
+
+.pricingTable .month {
+  display: block;
+  font-size: 14px;
+  color: #cad0de;
+}
+
+.pricingTable:hover .month,
+.pricingTable:hover .price-value,
+.pricingTable:hover .pricingTable-header i {
+  color: #fff;
+}
+
+.pricingTable .heading {
+  font-size: 24px;
+  color: #ff9624;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.pricingTable .pricing-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.pricingTable .pricing-content ul li {
+  line-height: 30px;
+  color: #a7a8aa;
+}
+
+.pricingTable .pricingTable-signup a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 20px;
+  background: #ffa442;
+  text-transform: uppercase;
+  transition: all .3s ease 0s;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #ffa442;
+}
+
+.pricingTable.blue .heading,
+.pricingTable.blue .price-value {
+  color: #4b64ff;
+}
+
+.pricingTable.blue .pricingTable-signup a,
+.pricingTable.blue:hover .pricingTable-header {
+  background: #4b64ff;
+}
+
+.pricingTable.blue .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #4b64ff;
+}
+
+.pricingTable.red .heading,
+.pricingTable.red .price-value {
+  color: #ff4b4b;
+}
+
+.pricingTable.red .pricingTable-signup a,
+.pricingTable.red:hover .pricingTable-header {
+  background: #ff4b4b;
+}
+
+.pricingTable.red .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #ff4b4b;
+}
+
+.pricingTable.green .heading,
+.pricingTable.green .price-value {
+  color: #40c952;
+}
+
+.pricingTable.green .pricingTable-signup a,
+.pricingTable.green:hover .pricingTable-header {
+  background: #40c952;
+}
+
+.pricingTable.green .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #40c952;
+}
+
+.pricingTable.blue:hover .price-value,
+.pricingTable.green:hover .price-value,
+.pricingTable.red:hover .price-value {
+  color: #fff;
+}
+
+#cta {
+  background-color: #ff4c68;
+}
+
+.cta-btn {
+  margin-top: 4%;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+#footer p {
+  color: #a7a8aa;
+}
+
+.icon {
+  margin: 20px 10px;
+}
+
+@media screen and (max-width:1028px) {
+  .pricingTable {
+    margin: 0 0 20px;
+  }
+
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
