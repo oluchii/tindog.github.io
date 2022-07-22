@@ -8,41 +8,59 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
-.top-container {
-  padding: 3% 15%;
-}
-
-.big-heading, #cta h3 {
+.big-heading {
+  font-family: 'Montserrat-Black';
   font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: 400;
+  
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.coloured-section {
+  background-color: #ff4c68;
   color: #fff;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 /* Navigation Bar */
 .navbar {
-  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
   font-size: 2.5rem;
   font-family: 'Ubuntu';
+  font-weight: bold;
   color: #fff;
 }
 
+.disabled{
+  pointer-events: none;
+}
+
 .nav-item {
-  font-size: 1.2rem;
-  font-weight: 300;
   padding: 0 18px;
 }
 
 .nav-link {
-  color: rgb(211, 217, 222);
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  color: #ffffff80;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: #fff;
 }
 
 /* Download Buttons*/
@@ -50,20 +68,23 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5% 3% 5% 0;
 }
 
-.btn-outline-light {
-  margin-left: 3%;
+/* Title Image */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
 }
 
-/* Title Image */
 .title-img {
-  height: 90%;
+  width: 21.5%;
   transform: rotate(25deg);
   position: absolute;
-  right: 25%;
+  right: 26%;
+  padding-left: 4.5px;
 }
 
-img.title-img {
-  padding-bottom: 7%;
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Features */
@@ -73,15 +94,12 @@ img.title-img {
   position: relative;
 }
 
-#title .container-fluid {
-  padding: 3% 7% 15%;
-}
-.container-fluid {
-  padding: 7% 15%;
+.feature-title {
+  font-size: 1.5rem;
 }
 
-h3 {
-  font-size: 1.5rem;
+.feature-box {
+  padding: 4.5%;
 }
 
 .icons {
@@ -100,8 +118,6 @@ div p {
 /* Testimonials*/
 
 #testimonials {
-  background-color:#ef8172;
-  color: #fff;
   font-weight: bold;
 }
 
@@ -117,7 +133,6 @@ div p {
 }
 
 #press {
-  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
@@ -133,6 +148,10 @@ div p {
 /* Pricing Section */
 #pricing {
   padding: 100px;
+}
+
+#pricing .container-fluid {
+  padding: 0% 7% 0%;
 }
 
 .pricing-header p {
@@ -284,18 +303,10 @@ a {
   color: #fff;
 }
 
-#cta {
-  background-color: #ff4c68;
-}
+/* CTA Section */
 
-.cta-btn {
-  margin-top: 4%;
-}
 
-#footer {
-  background-color: #fff;
-}
-
+/* Footer Section */
 #footer p {
   color: #a7a8aa;
 }
